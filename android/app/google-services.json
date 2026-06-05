@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376119255208",
+    "project_id": "visualdsa-17626",
+    "storage_bucket": "visualdsa-17626.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376119255208:android:a8b5ab8e4bb206c357229d",
+        "android_client_info": {
+          "package_name": "com.example.visualdsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWckvMLqOJchyLMymhAVr6Uo7N7mHI10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
