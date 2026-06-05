@@ -50,72 +50,58 @@ class _HomePageState extends State<HomePage> {
       CategoryModel(
         title: "Array",
         preview: const ArrayPreview(),
-        tags: ["indexing", "traversal", "static"],
       ),
       CategoryModel(
         title: "Sorting",
         preview: const SortingPreview(),
-        tags: ["bubble", "selection", "insertion"],
       ),
       CategoryModel(
         title: "Searching",
         preview: const SearchingPreview(),
-        tags: ["binary", "linear", "log n"],
       ),
       CategoryModel(
         title: "Graph",
         preview: const GraphPreview(),
-        tags: ["tree", "bipartite", "dag"],
       ),
       CategoryModel(
         title: 'Graph Traversal',
         preview: const GraphTraversalPreview(),
-        tags: ["bfs", "dfs", "traversal"],
       ),
       CategoryModel(
         title: "Binary Tree",
         preview: const BinaryTreePreview(),
-        tags: ["In-order", "pre-order", "post-order"],
       ),
       CategoryModel(
         title: "Binary Search Tree",
         preview: const BSTPreview(),
-        tags: ["bst", "search", "insert"],
       ),
       CategoryModel(
         title: "Linked List",
         preview: const LinkedListPreview(),
-        tags: ["singly", "doubly", "circular"],
       ),
       CategoryModel(
         title: "Stack",
         preview: const StackPreview(),
-        tags: ["lifo", "push", "pop"],
       ),
       CategoryModel(
         title: "Queue",
         preview: const QueuePreview(),
-        tags: ["fifo", "enqueue", "dequeue"],
       ),
       CategoryModel(
         title: "Heap",
         preview: const HeapPreview(),
-        tags: ["min heap", "max heap", "priority"],
       ),
       CategoryModel(
         title: "Shortest Path",
         preview: const ShortestPathPreview(),
-        tags: ["dijkstra", "bellman", "floyd"],
       ),
       CategoryModel(
         title: "Minimum Spanning Tree",
         preview: const MSTPreview(),
-        tags: ["prim", "kruskal", "mst"],
       ),
       CategoryModel(
         title: "Huffman Coding",
         preview: const HuffmanPreview(),
-        tags: ["greedy", "encoding", "compression"],
       ),
     ];
     filteredCategories = categories;

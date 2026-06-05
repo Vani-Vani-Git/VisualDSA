@@ -587,16 +587,6 @@ class _TreeDrawCanvasState extends State<TreeDrawCanvas> {
           child: Container(
             padding:
                 const EdgeInsets.symmetric(horizontal: 16, vertical: 7),
-            decoration: BoxDecoration(
-              color: const Color(0xFF7C3AED),
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: const Text('Use Tree ✓',
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 12,
-                    fontWeight: FontWeight.w700,
-                    fontFamily: 'monospace')),
           ),
         ),
       ]),

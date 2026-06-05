@@ -181,22 +181,6 @@ class CategoryCard extends StatelessWidget {
                     ),
 
                     const SizedBox(height: 18),
-
-                    Wrap(
-
-                      spacing: 8,
-                      runSpacing: 8,
-
-                      children:
-
-                          category.tags.map((tag) {
-
-                        return TagChip(
-                          text: tag,
-                        );
-
-                      }).toList(),
-                    ),
                   ],
                 ),
               ),
